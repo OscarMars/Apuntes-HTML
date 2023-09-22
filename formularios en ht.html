@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario inicio de secion</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        h1{
+            background-color: brown;
+        }
+        div{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>Formulario de registro</u></h1>
+    <br>
+    <figure>
+        <img 
+        src="img/icons8-person-at-home-64.png"
+        >
+    </figure>
+    <br>
+    <form>
+        <label for=""><b>Nombres</b></label> <br>
+        <input type="text" placeholder="ingresa tu nombre" required></input>
+       <br> <label type=""><b>Tipo de documento</b></label><br>
+       <select>
+        <option value="RC">Registro civil</option>
+        <option value="TI">Tarjeta de identidad</option>
+        <option value="CC">Cedula de ciudadania</option>
+    </select><br>
+    <label for=""><b>Fecha de nacimiento</b></label><br>
+    <input type="date"><br>
+    <label for=""><b>Cedula</b></b></label> <br>
+    <input type="number" required><br>
+    <label for=""><b>Ingresa tu correo</label><br>
+   <input type="email" placeholder="Ingresa tu correo"> <br>
+   <label for=""><b>Contraseña</b></label><br>
+   <input type="password" placeholder="Ingresa tu contraseña"><br>
+   <br>
+   <br>
+   <div>
+   <input type="checkbox">
+   <label for="">Acepto terminos y condiciones</label>
+   <input type="submit" value="Inscribirme">
+   </div>
+    </form>
+</body> 
+</html>
